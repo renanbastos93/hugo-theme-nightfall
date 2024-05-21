@@ -4,9 +4,9 @@
 
 Nightfall is a minimal dark theme for Hugo. [Demo](https://hugo-theme-nightfall.netlify.app)
 
-![Hugo Theme Nightfall](https://raw.githubusercontent.com/LordMathis/hugo-theme-nightfall/main/images/screenshot.png)
-![Hugo Theme Nightfall Posts](https://raw.githubusercontent.com/LordMathis/hugo-theme-nightfall/main/images/screenshot_2.png)
-![Hugo Theme Nightfall Single](https://raw.githubusercontent.com/LordMathis/hugo-theme-nightfall/main/images/screenshot_3.png)
+![Hugo Theme Nightfall](https://raw.githubusercontent.com/renanbastos93/hugo-theme-nightfall/main/images/screenshot.png)
+![Hugo Theme Nightfall Posts](https://raw.githubusercontent.com/renanbastos93/hugo-theme-nightfall/main/images/screenshot_2.png)
+![Hugo Theme Nightfall Single](https://raw.githubusercontent.com/renanbastos93/hugo-theme-nightfall/main/images/screenshot_3.png)
 
 ## Get the theme
 
@@ -16,13 +16,13 @@ Import as [hugo module](https://gohugo.io/hugo-modules/use-modules/#use-a-module
 ```toml
 [module]
 [[module.imports]]
-  path = 'github.com/LordMathis/hugo-theme-nightfall'
+  path = 'github.com/renanbastos93/hugo-theme-nightfall'
 ```
 
 OR
 
 Import manually:
-1. `git clone https://github.com/LordMathis/hugo-theme-nightfall themes/nightfall`
+1. `git clone https://github.com/renanbastos93/hugo-theme-nightfall themes/nightfall`
 2. Add `theme = "nightfall"` in your `config.toml`:
 
 ## Configuration
@@ -132,5 +132,5 @@ You can customize the text displayed in footer with `footerHtml` in `[params]` s
 
 ```toml
 [params]
-footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/LordMathis/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
+footerHtml = 'CC-0, Built with <a href="https://gohugo.io" class="footerLink">Hugo</a> and <a href="https://github.com/renanbastos93/hugo-theme-nightfall" class="footerLink">Nightfall</a> theme'
 ```
